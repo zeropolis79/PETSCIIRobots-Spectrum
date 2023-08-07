@@ -1,0 +1,9 @@
+@echo off
+set path=%path%;..\..\sjasmplus
+copy /Y ..\res\pet_robots.tap "%cd%\01 - pet_robots.tap"
+copy /Y ..\res\gfx_robots.tap "%cd%\02 - gfx_robots.tap"
+copy /Y ..\res\micro_bots.tap "%cd%\03 - micro_bots.tap"
+copy /Y ..\res\color_bots.tap "%cd%\04 - color_bots.tap"
+sjasmplus main1.asm
+..\tools\apultra -c main1.bin main1.apl
+sjasmplus main.asm
