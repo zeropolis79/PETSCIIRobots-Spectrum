@@ -1,6 +1,6 @@
 This code is provided AS IS. It is guaranteed that it is the same exact
 code that the ZX Spectrum 48K verion(s) has been built from, so it is
-ompilable and working.
+compilable and working.
 
 However, NO SUPPORT IS PROVIDED TO THE CODE. It is supposed that you are
 qualified enough to figure out it all on your own, and to solve both
